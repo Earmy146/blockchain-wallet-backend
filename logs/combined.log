@@ -1,0 +1,31 @@
+2025-10-18 12:21:39 [INFO]: Server started on port 5000
+2025-10-18 12:21:59 [INFO]: Server started on port 5000
+2025-10-18 12:22:58 [ERROR]: [GET /favicon.ico] Route /favicon.ico không tồn tại
+Error: Route /favicon.ico không tồn tại
+    at notFoundHandler (/home/quan/blockchain-wallet/backend/src/utils/errorHandler.js:131:17)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:280:10)
+    at /home/quan/blockchain-wallet/backend/server.js:58:3
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:286:9
+2025-10-18 12:30:33 [INFO]: POST /api/users/register - IP: ::1
+2025-10-18 12:30:33 [INFO]: New user registered: test@example.com
+2025-10-18 12:31:55 [INFO]: POST /api/users/login - IP: ::1
+2025-10-18 12:31:55 [INFO]: User logged in: test@example.com
+2025-10-18 12:34:21 [INFO]: POST /api/wallet/create - IP: ::1
+2025-10-18 12:34:21 [INFO]: User authenticated: test@example.com
+2025-10-18 12:34:22 [INFO]: Creating wallet for user: test@example.com
+2025-10-18 12:34:22 [INFO]: Wallet created: 0x3947B906685E47fB2FB1F8ABdFe1D9Cf25e0E76A
+2025-10-18 12:34:22 [INFO]: Seed phrase encrypted successfully
+2025-10-18 12:34:29 [INFO]: Balance for 0x3947B906685E47fB2FB1F8ABdFe1D9Cf25e0E76A: 0.0 ETH
+2025-10-18 12:34:29 [INFO]: Wallet saved to DB: 68f326de0fb1516a2e6a62c5
+2025-10-18 12:34:29 [INFO]: Wallet created successfully for user: test@example.com
+2025-10-18 12:40:36 [INFO]: GET /api/wallet/balance - IP: ::1
+2025-10-18 12:40:36 [INFO]: User authenticated: test@example.com
+2025-10-18 12:40:40 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.0 ETH
+2025-10-18 12:40:41 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.0 ETH
+2025-10-18 12:40:41 [INFO]: Balance updated for wallet: 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a

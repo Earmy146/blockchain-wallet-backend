@@ -1,0 +1,12 @@
+2025-10-18 12:22:58 [ERROR]: [GET /favicon.ico] Route /favicon.ico không tồn tại
+Error: Route /favicon.ico không tồn tại
+    at notFoundHandler (/home/quan/blockchain-wallet/backend/src/utils/errorHandler.js:131:17)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:280:10)
+    at /home/quan/blockchain-wallet/backend/server.js:58:3
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:328:13)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:286:9
