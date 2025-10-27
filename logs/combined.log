@@ -29,3 +29,884 @@ Error: Route /favicon.ico không tồn tại
 2025-10-18 12:40:40 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.0 ETH
 2025-10-18 12:40:41 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.0 ETH
 2025-10-18 12:40:41 [INFO]: Balance updated for wallet: 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a
+2025-10-18 13:45:44 [INFO]: Server started on port 5000
+2025-10-18 13:46:24 [INFO]: GET /api/wallet/balance - IP: ::1
+2025-10-18 13:46:24 [INFO]: User authenticated: test@example.com
+2025-10-18 13:46:28 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-18 13:46:29 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-18 13:46:29 [INFO]: Balance updated for wallet: 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a
+2025-10-18 13:55:53 [INFO]: Server started on port 5000
+2025-10-18 13:58:53 [INFO]: POST /api/users/register - IP: ::1
+2025-10-18 13:58:53 [INFO]: New user registered: phimanhnamquan@gmail.com
+2025-10-18 14:00:26 [INFO]: POST /api/users/login - IP: ::1
+2025-10-18 14:02:17 [INFO]: POST /api/users/login - IP: ::1
+2025-10-18 14:03:50 [INFO]: POST /api/users/login - IP: ::1
+2025-10-18 14:05:00 [INFO]: POST /api/users/register - IP: ::1
+2025-10-18 14:06:05 [INFO]: POST /api/users/register - IP: ::1
+2025-10-18 14:06:06 [INFO]: New user registered: test2@example.com
+2025-10-18 14:06:36 [INFO]: POST /api/users/login - IP: ::1
+2025-10-18 14:06:36 [INFO]: User logged in: test2@example.com
+2025-10-18 14:07:59 [INFO]: POST /api/wallet/create - IP: ::1
+2025-10-18 14:07:59 [INFO]: User authenticated: test2@example.com
+2025-10-18 14:07:59 [INFO]: Creating wallet for user: test2@example.com
+2025-10-18 14:07:59 [INFO]: Wallet created: 0xFB7543de58BAf7F95DFddcc782e86EbF97dA8Fd1
+2025-10-18 14:07:59 [INFO]: Seed phrase encrypted successfully
+2025-10-18 14:08:03 [INFO]: Balance for 0xFB7543de58BAf7F95DFddcc782e86EbF97dA8Fd1: 0.0 ETH
+2025-10-18 14:08:03 [INFO]: Wallet saved to DB: 68f33ccfd5c278c90f097d79
+2025-10-18 14:08:03 [INFO]: Wallet created successfully for user: test2@example.com
+2025-10-18 14:09:30 [INFO]: GET /api/wallet/balance - IP: ::1
+2025-10-18 14:09:30 [INFO]: User authenticated: test2@example.com
+2025-10-18 14:09:34 [INFO]: Balance for 0xfb7543de58baf7f95dfddcc782e86ebf97da8fd1: 0.0 ETH
+2025-10-18 14:09:34 [INFO]: Balance for 0xfb7543de58baf7f95dfddcc782e86ebf97da8fd1: 0.0 ETH
+2025-10-18 14:09:34 [INFO]: Balance updated for wallet: 0xfb7543de58baf7f95dfddcc782e86ebf97da8fd1
+2025-10-20 09:33:55 [INFO]: Server started on port 5000
+2025-10-20 09:53:09 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-20 09:53:09 [ERROR]: [POST /api/users/login] Email hoặc mật khẩu không đúng
+Error: Email hoặc mật khẩu không đúng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:69:11
+2025-10-20 09:53:15 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-20 09:53:15 [ERROR]: [POST /api/users/login] Email hoặc mật khẩu không đúng
+Error: Email hoặc mật khẩu không đúng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:69:11
+2025-10-20 09:53:23 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-20 09:53:23 [ERROR]: [POST /api/users/login] Email hoặc mật khẩu không đúng
+Error: Email hoặc mật khẩu không đúng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:69:11
+2025-10-20 09:54:02 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-20 09:54:02 [INFO]: User logged in: test@example.com
+2025-10-20 10:18:51 [INFO]: POST /api/wallet/restore - IP: ::ffff:127.0.0.1
+2025-10-20 10:18:51 [ERROR]: [auth.middleware.protect] invalid token
+JsonWebTokenError: invalid token
+    at module.exports [as verify] (/home/quan/blockchain-wallet/backend/node_modules/jsonwebtoken/verify.js:82:17)
+    at protect (/home/quan/blockchain-wallet/backend/src/middlewares/auth.middleware.js:31:25)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:175:3)
+2025-10-20 10:19:33 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-20 10:19:33 [INFO]: User logged in: test@example.com
+2025-10-20 10:20:18 [INFO]: POST /api/wallet/restore - IP: ::ffff:127.0.0.1
+2025-10-20 10:20:18 [ERROR]: [auth.middleware.protect] invalid token
+JsonWebTokenError: invalid token
+    at module.exports [as verify] (/home/quan/blockchain-wallet/backend/node_modules/jsonwebtoken/verify.js:82:17)
+    at protect (/home/quan/blockchain-wallet/backend/src/middlewares/auth.middleware.js:31:25)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:175:3)
+2025-10-20 10:21:12 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-20 10:21:12 [INFO]: User logged in: test@example.com
+2025-10-20 10:22:06 [INFO]: POST /api/wallet/restore - IP: ::ffff:127.0.0.1
+2025-10-20 10:22:06 [ERROR]: [auth.middleware.protect] invalid token
+JsonWebTokenError: invalid token
+    at module.exports [as verify] (/home/quan/blockchain-wallet/backend/node_modules/jsonwebtoken/verify.js:82:17)
+    at protect (/home/quan/blockchain-wallet/backend/src/middlewares/auth.middleware.js:31:25)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:175:3)
+2025-10-20 10:23:04 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-20 10:23:04 [INFO]: User logged in: test@example.com
+2025-10-20 10:31:05 [INFO]: POST /api/wallet/restore - IP: ::ffff:127.0.0.1
+2025-10-20 10:31:05 [ERROR]: [auth.middleware.protect] invalid token
+JsonWebTokenError: invalid token
+    at module.exports [as verify] (/home/quan/blockchain-wallet/backend/node_modules/jsonwebtoken/verify.js:82:17)
+    at protect (/home/quan/blockchain-wallet/backend/src/middlewares/auth.middleware.js:31:25)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:175:3)
+2025-10-20 10:33:16 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-20 10:33:16 [INFO]: User logged in: test@example.com
+2025-10-20 11:25:34 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-20 11:25:34 [INFO]: User logged in: test@example.com
+2025-10-20 11:33:19 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-20 11:33:19 [INFO]: User logged in: test@example.com
+2025-10-20 11:37:19 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-20 11:37:20 [INFO]: User logged in: test@example.com
+2025-10-20 11:39:23 [INFO]: POST /api/wallet/restore - IP: ::ffff:127.0.0.1
+2025-10-20 11:39:23 [ERROR]: [auth.middleware.protect] invalid token
+JsonWebTokenError: invalid token
+    at module.exports [as verify] (/home/quan/blockchain-wallet/backend/node_modules/jsonwebtoken/verify.js:82:17)
+    at protect (/home/quan/blockchain-wallet/backend/src/middlewares/auth.middleware.js:31:25)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:175:3)
+2025-10-20 11:39:36 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-20 11:39:37 [INFO]: User logged in: test@example.com
+2025-10-20 11:45:46 [INFO]: POST /api/wallet/restore - IP: ::ffff:127.0.0.1
+2025-10-20 11:45:46 [ERROR]: [auth.middleware.protect] invalid token
+JsonWebTokenError: invalid token
+    at module.exports [as verify] (/home/quan/blockchain-wallet/backend/node_modules/jsonwebtoken/verify.js:82:17)
+    at protect (/home/quan/blockchain-wallet/backend/src/middlewares/auth.middleware.js:31:25)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:175:3)
+2025-10-20 11:57:07 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-20 11:57:07 [INFO]: User logged in: test@example.com
+2025-10-20 11:57:47 [INFO]: POST /api/wallet/restore - IP: ::ffff:127.0.0.1
+2025-10-20 11:57:47 [INFO]: User authenticated: test@example.com
+2025-10-20 11:57:47 [INFO]: Restoring wallet for user: test@example.com
+2025-10-20 11:57:47 [INFO]: Wallet restored: 0x3947B906685E47fB2FB1F8ABdFe1D9Cf25e0E76A
+2025-10-20 11:57:47 [ERROR]: [WalletService.restoreWallet] Ví này đã được sử dụng bởi người dùng khác
+Error: Ví này đã được sử dụng bởi người dùng khác
+    at WalletService.restoreWallet (/home/quan/blockchain-wallet/backend/src/services/wallet.service.js:118:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/wallet.controller.js:50:18
+2025-10-20 11:57:47 [ERROR]: [POST /api/wallet/restore] Ví này đã được sử dụng bởi người dùng khác
+Error: Ví này đã được sử dụng bởi người dùng khác
+    at WalletService.restoreWallet (/home/quan/blockchain-wallet/backend/src/services/wallet.service.js:118:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/wallet.controller.js:50:18
+2025-10-20 11:57:57 [INFO]: POST /api/wallet/restore - IP: ::ffff:127.0.0.1
+2025-10-20 11:57:57 [INFO]: User authenticated: test@example.com
+2025-10-20 11:57:57 [INFO]: Restoring wallet for user: test@example.com
+2025-10-20 11:57:57 [INFO]: Wallet restored: 0x3947B906685E47fB2FB1F8ABdFe1D9Cf25e0E76A
+2025-10-20 11:57:57 [ERROR]: [WalletService.restoreWallet] Ví này đã được sử dụng bởi người dùng khác
+Error: Ví này đã được sử dụng bởi người dùng khác
+    at WalletService.restoreWallet (/home/quan/blockchain-wallet/backend/src/services/wallet.service.js:118:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/wallet.controller.js:50:18
+2025-10-20 11:57:57 [ERROR]: [POST /api/wallet/restore] Ví này đã được sử dụng bởi người dùng khác
+Error: Ví này đã được sử dụng bởi người dùng khác
+    at WalletService.restoreWallet (/home/quan/blockchain-wallet/backend/src/services/wallet.service.js:118:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/wallet.controller.js:50:18
+2025-10-20 12:14:26 [INFO]: Server started on port 5000
+2025-10-20 12:15:28 [INFO]: Server started on port 5000
+2025-10-20 12:16:58 [INFO]: Server started on port 5000
+2025-10-20 12:17:38 [INFO]: POST /api/wallet/restore - IP: ::ffff:127.0.0.1
+2025-10-20 12:17:38 [INFO]: User authenticated: test@example.com
+2025-10-20 12:17:38 [INFO]: Restoring wallet for user: test@example.com
+2025-10-20 12:17:38 [INFO]: Wallet restored: 0x3947B906685E47fB2FB1F8ABdFe1D9Cf25e0E76A
+2025-10-20 12:17:38 [INFO]: Seed phrase encrypted successfully
+2025-10-20 12:17:41 [INFO]: Balance for 0x3947B906685E47fB2FB1F8ABdFe1D9Cf25e0E76A: 0.05436708 ETH
+2025-10-20 12:17:41 [INFO]: Wallet restored successfully for user: test@example.com
+2025-10-20 12:17:41 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 12:17:41 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 12:17:41 [INFO]: User authenticated: test@example.com
+2025-10-20 12:17:41 [INFO]: User authenticated: test@example.com
+2025-10-20 12:17:41 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:17:41 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:17:41 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:41 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:41 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:41 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:41 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 12:17:41 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 12:17:41 [INFO]: User authenticated: test@example.com
+2025-10-20 12:17:41 [INFO]: User authenticated: test@example.com
+2025-10-20 12:17:42 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:17:42 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:17:49 [INFO]: GET /api/transactions/history?limit=50 - IP: ::ffff:127.0.0.1
+2025-10-20 12:17:49 [INFO]: GET /api/transactions/history?limit=50 - IP: ::ffff:127.0.0.1
+2025-10-20 12:17:49 [INFO]: User authenticated: test@example.com
+2025-10-20 12:17:49 [INFO]: User authenticated: test@example.com
+2025-10-20 12:17:52 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:17:52 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:17:55 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 12:17:55 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 12:17:55 [INFO]: User authenticated: test@example.com
+2025-10-20 12:17:55 [INFO]: User authenticated: test@example.com
+2025-10-20 12:17:56 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:17:56 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:17:56 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:56 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:56 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:56 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:56 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 12:17:56 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 12:17:56 [INFO]: User authenticated: test@example.com
+2025-10-20 12:17:56 [INFO]: User authenticated: test@example.com
+2025-10-20 12:17:56 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:17:58 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:17:59 [INFO]: GET /api/transactions/history?limit=50 - IP: ::ffff:127.0.0.1
+2025-10-20 12:17:59 [INFO]: GET /api/transactions/history?limit=50 - IP: ::ffff:127.0.0.1
+2025-10-20 12:17:59 [INFO]: User authenticated: test@example.com
+2025-10-20 12:17:59 [INFO]: User authenticated: test@example.com
+2025-10-20 12:17:59 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:17:59 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:02 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:02 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:02 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:02 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:02 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:02 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:02 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:02 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:02 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:02 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:02 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:02 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:02 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:02 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:03 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:03 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:18 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:18 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:18 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:18 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:18 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:18 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:20 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:20 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:21 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:21 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:21 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:21 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:21 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:21 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:21 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:21 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:21 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:21 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:21 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:21 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:21 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:21 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:21 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:21 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:21 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:21 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:21 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:21 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:21 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:21 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:21 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:21 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:22 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:22 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:22 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:22 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:22 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:22 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 12:18:22 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:22 [INFO]: User authenticated: test@example.com
+2025-10-20 12:18:22 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:23 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:18:23 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:05 [INFO]: GET /api/transactions/history?limit=50 - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:05 [INFO]: GET /api/transactions/history?limit=50 - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:05 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:05 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:07 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:07 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:21 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:21 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:21 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:21 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:23 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:23 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:23 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:23 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:23 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:23 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:23 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:23 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:23 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:23 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:23 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:23 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:31 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:31 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:31 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:31 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:31 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:31 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:31 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:31 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:31 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:31 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:33 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:33 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:33 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:33 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:33 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:33 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:33 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:33 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:33 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:34 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:34 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:34 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:34 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:34 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:34 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:34 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:34 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 12:19:34 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:34 [INFO]: User authenticated: test@example.com
+2025-10-20 12:19:34 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 12:19:34 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 15:55:48 [INFO]: Server started on port 5000
+2025-10-20 16:01:46 [INFO]: Server started on port 5000
+2025-10-20 16:09:40 [INFO]: Server started on port 5000
+2025-10-20 16:37:19 [INFO]: Server started on port 5000
+2025-10-20 16:38:15 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 16:38:15 [INFO]: User authenticated: test@example.com
+2025-10-20 16:38:17 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:38:17 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 16:38:17 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 16:38:17 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 16:38:17 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-20 16:38:17 [INFO]: User authenticated: test@example.com
+2025-10-20 16:38:17 [INFO]: User authenticated: test@example.com
+2025-10-20 16:38:17 [INFO]: User authenticated: test@example.com
+2025-10-20 16:38:17 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:38:17 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:38:17 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:38:18 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 16:38:18 [INFO]: User authenticated: test@example.com
+2025-10-20 16:38:18 [INFO]: User authenticated: test@example.com
+2025-10-20 16:38:18 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:38:18 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:38:18 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 16:38:18 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:18 [INFO]: User authenticated: test@example.com
+2025-10-20 16:38:18 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:18 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 16:38:18 [INFO]: User authenticated: test@example.com
+2025-10-20 16:38:19 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:38:19 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:38:19 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:19 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:19 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 16:38:19 [INFO]: User authenticated: test@example.com
+2025-10-20 16:38:19 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:38:42 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-20 16:38:42 [INFO]: User logged in: test@example.com
+2025-10-20 16:38:42 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 16:38:42 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 16:38:42 [INFO]: User authenticated: test@example.com
+2025-10-20 16:38:42 [INFO]: User authenticated: test@example.com
+2025-10-20 16:38:44 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:38:44 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:38:44 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:44 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:44 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 16:38:44 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 16:38:44 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:44 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:44 [INFO]: User authenticated: test@example.com
+2025-10-20 16:38:44 [INFO]: User authenticated: test@example.com
+2025-10-20 16:38:45 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:38:45 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:39:19 [INFO]: GET /api/transactions/history?limit=50 - IP: ::ffff:127.0.0.1
+2025-10-20 16:39:19 [INFO]: GET /api/transactions/history?limit=50 - IP: ::ffff:127.0.0.1
+2025-10-20 16:39:20 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 16:39:20 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 16:39:20 [INFO]: User authenticated: test@example.com
+2025-10-20 16:39:20 [INFO]: User authenticated: test@example.com
+2025-10-20 16:39:20 [INFO]: User authenticated: test@example.com
+2025-10-20 16:39:20 [INFO]: User authenticated: test@example.com
+2025-10-20 16:39:24 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:39:24 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:39:24 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:39:24 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:39:25 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:39:25 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:39:25 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:39:25 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:39:25 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 16:39:25 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 16:39:25 [INFO]: User authenticated: test@example.com
+2025-10-20 16:39:26 [INFO]: User authenticated: test@example.com
+2025-10-20 16:39:26 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:39:26 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-20 16:40:31 [INFO]: POST /api/users/register - IP: ::ffff:127.0.0.1
+2025-10-20 16:40:31 [ERROR]: [POST /api/users/register] Email này đã được sử dụng
+Error: Email này đã được sử dụng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:24:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-20 16:40:36 [INFO]: POST /api/users/register - IP: ::ffff:127.0.0.1
+2025-10-20 16:40:36 [INFO]: New user registered: test3@example.com
+2025-10-20 16:40:52 [INFO]: POST /api/wallet/create - IP: ::ffff:127.0.0.1
+2025-10-20 16:40:52 [INFO]: User authenticated: test3@example.com
+2025-10-20 16:40:52 [INFO]: Creating wallet for user: test3@example.com
+2025-10-20 16:40:52 [INFO]: Wallet created: 0x030a1aE0f2b71C1Cb4F5CdFbdA2915c377638aC8
+2025-10-20 16:40:52 [INFO]: Seed phrase encrypted successfully
+2025-10-20 16:40:54 [INFO]: Balance for 0x030a1aE0f2b71C1Cb4F5CdFbdA2915c377638aC8: 0.0 ETH
+2025-10-20 16:40:54 [INFO]: Wallet saved to DB: 68f603a48558ca6c447de89e
+2025-10-20 16:40:54 [INFO]: Wallet created successfully for user: test3@example.com
+2025-10-20 16:43:23 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 16:43:23 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-20 16:43:24 [INFO]: User authenticated: test3@example.com
+2025-10-20 16:43:24 [INFO]: User authenticated: test3@example.com
+2025-10-20 16:43:25 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-20 16:43:25 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-20 16:43:26 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:43:26 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:43:26 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:43:26 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:43:26 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 16:43:26 [INFO]: User authenticated: test3@example.com
+2025-10-20 16:43:26 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-20 16:43:26 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-20 16:43:26 [INFO]: User authenticated: test3@example.com
+2025-10-20 16:43:27 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-27 12:43:31 [INFO]: Server started on port 5000
+2025-10-27 12:43:52 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-27 12:43:52 [INFO]: User authenticated: test3@example.com
+2025-10-27 12:43:54 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-27 12:43:54 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-27 12:43:54 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-27 12:43:54 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-27 12:43:54 [INFO]: GET /api/wallet - IP: ::ffff:127.0.0.1
+2025-10-27 12:43:54 [INFO]: User authenticated: test3@example.com
+2025-10-27 12:43:54 [INFO]: User authenticated: test3@example.com
+2025-10-27 12:43:54 [INFO]: User authenticated: test3@example.com
+2025-10-27 12:43:54 [INFO]: User authenticated: test3@example.com
+2025-10-27 12:43:54 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-27 12:43:54 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-27 12:43:54 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-27 12:43:54 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-27 12:43:54 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-27 12:43:54 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-27 12:43:54 [INFO]: User authenticated: test3@example.com
+2025-10-27 12:43:54 [INFO]: User authenticated: test3@example.com
+2025-10-27 12:43:55 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-27 12:43:55 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-27 12:43:55 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:43:55 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:43:55 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:43:55 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:43:55 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-27 12:43:55 [INFO]: User authenticated: test3@example.com
+2025-10-27 12:43:55 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-27 12:43:55 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-27 12:43:55 [INFO]: User authenticated: test3@example.com
+2025-10-27 12:43:56 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-27 12:44:03 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-27 12:44:03 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-27 12:44:03 [INFO]: User authenticated: test3@example.com
+2025-10-27 12:44:03 [INFO]: User authenticated: test3@example.com
+2025-10-27 12:44:04 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-27 12:44:04 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-27 12:44:04 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:44:04 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:44:04 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:44:04 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:44:04 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-27 12:44:04 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-27 12:44:04 [INFO]: User authenticated: test3@example.com
+2025-10-27 12:44:04 [INFO]: User authenticated: test3@example.com
+2025-10-27 12:44:04 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-27 12:44:04 [INFO]: Balance for 0x030a1ae0f2b71c1cb4f5cdfbda2915c377638ac8: 0.0 ETH
+2025-10-27 12:45:01 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-27 12:45:01 [ERROR]: [POST /api/users/login] Email hoặc mật khẩu không đúng
+Error: Email hoặc mật khẩu không đúng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:62:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27 12:45:05 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-27 12:45:05 [INFO]: User logged in: test2@example.com
+2025-10-27 12:45:05 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-27 12:45:05 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-27 12:45:05 [INFO]: User authenticated: test2@example.com
+2025-10-27 12:45:05 [INFO]: User authenticated: test2@example.com
+2025-10-27 12:45:07 [INFO]: Balance for 0xfb7543de58baf7f95dfddcc782e86ebf97da8fd1: 0.0 ETH
+2025-10-27 12:45:07 [INFO]: Balance for 0xfb7543de58baf7f95dfddcc782e86ebf97da8fd1: 0.0 ETH
+2025-10-27 12:45:07 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:45:07 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:45:07 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:45:07 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:45:07 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-27 12:45:07 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-27 12:45:07 [INFO]: User authenticated: test2@example.com
+2025-10-27 12:45:07 [INFO]: User authenticated: test2@example.com
+2025-10-27 12:45:08 [INFO]: Balance for 0xfb7543de58baf7f95dfddcc782e86ebf97da8fd1: 0.0 ETH
+2025-10-27 12:45:08 [INFO]: Balance for 0xfb7543de58baf7f95dfddcc782e86ebf97da8fd1: 0.0 ETH
+2025-10-27 12:45:17 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-27 12:45:18 [ERROR]: [POST /api/users/login] Email hoặc mật khẩu không đúng
+Error: Email hoặc mật khẩu không đúng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:69:11
+2025-10-27 12:45:21 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-27 12:45:22 [ERROR]: [POST /api/users/login] Email hoặc mật khẩu không đúng
+Error: Email hoặc mật khẩu không đúng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:62:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27 12:45:24 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-27 12:45:24 [ERROR]: [POST /api/users/login] Email hoặc mật khẩu không đúng
+Error: Email hoặc mật khẩu không đúng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:62:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27 12:50:31 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-27 12:50:32 [INFO]: User logged in: test@example.com
+2025-10-27 12:50:32 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-27 12:50:32 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-27 12:50:32 [INFO]: User authenticated: test@example.com
+2025-10-27 12:50:32 [INFO]: User authenticated: test@example.com
+2025-10-27 12:50:34 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-27 12:50:34 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-27 12:50:34 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:50:34 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:50:34 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:50:34 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:50:34 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-27 12:50:34 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-27 12:50:34 [INFO]: User authenticated: test@example.com
+2025-10-27 12:50:34 [INFO]: User authenticated: test@example.com
+2025-10-27 12:50:34 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-27 12:50:34 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-27 12:53:11 [INFO]: POST /api/wallet/restore - IP: ::ffff:127.0.0.1
+2025-10-27 12:53:11 [INFO]: User authenticated: test@example.com
+2025-10-27 12:53:11 [INFO]: Restoring wallet for user: test@example.com
+2025-10-27 12:53:11 [INFO]: Wallet restored: 0x3947B906685E47fB2FB1F8ABdFe1D9Cf25e0E76A
+2025-10-27 12:53:12 [INFO]: Seed phrase encrypted successfully
+2025-10-27 12:53:15 [INFO]: Balance for 0x3947B906685E47fB2FB1F8ABdFe1D9Cf25e0E76A: 0.05436708 ETH
+2025-10-27 12:53:15 [INFO]: Wallet restored successfully for user: test@example.com
+2025-10-27 12:53:15 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-27 12:53:15 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-27 12:53:15 [INFO]: User authenticated: test@example.com
+2025-10-27 12:53:15 [INFO]: User authenticated: test@example.com
+2025-10-27 12:53:16 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-27 12:53:16 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-27 12:53:16 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:16 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:16 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:16 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:16 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-27 12:53:16 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-27 12:53:16 [INFO]: User authenticated: test@example.com
+2025-10-27 12:53:16 [INFO]: User authenticated: test@example.com
+2025-10-27 12:53:16 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-27 12:53:16 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-27 12:53:28 [INFO]: POST /api/users/login - IP: ::ffff:127.0.0.1
+2025-10-27 12:53:29 [INFO]: User logged in: test@example.com
+2025-10-27 12:53:29 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-27 12:53:29 [INFO]: GET /api/transactions/stats - IP: ::ffff:127.0.0.1
+2025-10-27 12:53:29 [INFO]: User authenticated: test@example.com
+2025-10-27 12:53:29 [INFO]: User authenticated: test@example.com
+2025-10-27 12:53:32 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-27 12:53:32 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-27 12:53:32 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:32 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:32 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:32 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:32 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-27 12:53:32 [INFO]: GET /api/transactions/history?limit=5 - IP: ::ffff:127.0.0.1
+2025-10-27 12:53:32 [INFO]: User authenticated: test@example.com
+2025-10-27 12:53:32 [INFO]: User authenticated: test@example.com
+2025-10-27 12:53:33 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-27 12:53:33 [INFO]: Balance for 0x3947b906685e47fb2fb1f8abdfe1d9cf25e0e76a: 0.05436708 ETH
+2025-10-27 13:05:12 [INFO]: Server started on port 5000
+2025-10-27 13:05:49 [INFO]: Server started on port 5000
+2025-10-27 13:06:01 [INFO]: Server started on port 5000
+2025-10-27 13:06:49 [INFO]: Server started on port 5000
+2025-10-27 13:07:03 [INFO]: Server started on port 5000
+2025-10-27 13:07:10 [INFO]: Server started on port 5000
+2025-10-27 13:07:20 [INFO]: Server started on port 5000
+2025-10-27 13:07:48 [INFO]: Server started on port 5000

@@ -93,69 +93,99 @@ class WalletService {
    * @param {String} network 
    * @returns {Object}
    */
-  async restoreWallet(userId, seedPhrase, password, network = 'sepolia') {
-    try {
-      // 1. Validate seed phrase
-      if (!isValidSeedPhrase(seedPhrase)) {
-        throw new AppError(ERROR_MESSAGES.WALLET.INVALID_SEED, 400);
-      }
-
-      // 2. Khôi phục wallet từ seed phrase
-      const restoredWallet = ethers.Wallet.fromPhrase(seedPhrase.trim());
-      
-      const privateKey = restoredWallet.privateKey;
-      const publicKey = restoredWallet.publicKey;
-      const address = restoredWallet.address;
-
-      logger.info(`Wallet restored: ${address}`);
-
-      // 3. Kiểm tra ví đã tồn tại trong DB chưa
-      let wallet = await Wallet.findByAddress(address);
-
-      if (wallet) {
-        // Nếu đã có, kiểm tra xem có phải của user này không
-        if (wallet.userId.toString() !== userId) {
-          throw new AppError('Ví này đã được sử dụng bởi người dùng khác', 400);
-        }
-      } else {
-        // Nếu chưa có, tạo mới
-        wallet = await Wallet.create({
-          userId,
-          address: address.toLowerCase(),
-          publicKey,
-          network,
-          balance: '0'
-        });
-      }
-
-      // 4. Mã hóa seed phrase
-      const encryptedSeed = encryptionService.encryptSeedPhrase(seedPhrase, password);
-
-      // 5. Cập nhật số dư
-      const balance = await blockchainService.getBalance(address, network);
-      await wallet.updateBalance(balance);
-
-      return {
-        wallet: {
-          id: wallet._id,
-          address: wallet.address,
-          publicKey: wallet.publicKey,
-          network: wallet.network,
-          balance: wallet.balance
-        },
-        encryptedSeed
-      };
-
-    } catch (error) {
-      logger.logError(error, 'WalletService.restoreWallet');
-      
-      if (error instanceof AppError) {
-        throw error;
-      }
-      
-      throw new AppError(ERROR_MESSAGES.WALLET.CREATION_FAILED, 500);
+/**
+ * Khôi phục ví từ seed phrase - WITH DEBUG
+ */
+async restoreWallet(userId, seedPhrase, password, network = 'sepolia') {
+  try {
+    // 1. Validate seed phrase
+    if (!isValidSeedPhrase(seedPhrase)) {
+      throw new AppError(ERROR_MESSAGES.WALLET.INVALID_SEED, 400);
     }
+
+    // 2. Khôi phục wallet từ seed phrase
+    const restoredWallet = ethers.Wallet.fromPhrase(seedPhrase.trim());
+    
+    const privateKey = restoredWallet.privateKey;
+    const publicKey = restoredWallet.publicKey;
+    const address = restoredWallet.address;
+
+    logger.info(`Wallet restored: ${address}`);
+
+    // ✅ DEBUG: Log userId
+    console.log('=== RESTORE WALLET DEBUG ===');
+    console.log('Current userId:', userId);
+    console.log('userId type:', typeof userId);
+    console.log('userId string:', userId.toString());
+
+    // 3. Kiểm tra ví đã tồn tại trong DB chưa
+    let wallet = await Wallet.findByAddress(address);
+
+    if (wallet) {
+      // ✅ DEBUG: Log wallet info
+      console.log('Wallet found in DB:');
+      console.log('  - wallet.userId:', wallet.userId);
+      console.log('  - wallet.userId type:', typeof wallet.userId);
+      console.log('  - wallet.userId toString:', wallet.userId.toString());
+      
+      // So sánh userId
+      const walletUserIdStr = wallet.userId.toString().trim();
+      const currentUserIdStr = userId.toString().trim();
+      
+      console.log('Comparison:');
+      console.log('  - walletUserIdStr:', walletUserIdStr);
+      console.log('  - currentUserIdStr:', currentUserIdStr);
+      console.log('  - Are equal?:', walletUserIdStr === currentUserIdStr);
+      
+      // Nếu đã có, kiểm tra xem có phải của user này không
+      if (walletUserIdStr !== currentUserIdStr) {
+        console.error('❌ USER ID MISMATCH!');
+        throw new AppError('Ví này đã được sử dụng bởi người dùng khác', 400);
+      }
+      
+      console.log('✅ User ID matches, updating wallet...');
+    } else {
+      // Nếu chưa có, tạo mới
+      console.log('✅ Wallet not found, creating new...');
+      wallet = await Wallet.create({
+        userId,
+        address: address.toLowerCase(),
+        publicKey,
+        network,
+        balance: '0'
+      });
+    }
+
+    // 4. Mã hóa seed phrase
+    const encryptedSeed = encryptionService.encryptSeedPhrase(seedPhrase, password);
+
+    // 5. Cập nhật số dư
+    const balance = await blockchainService.getBalance(address, network);
+    await wallet.updateBalance(balance);
+
+    console.log('=== RESTORE COMPLETED ===');
+
+    return {
+      wallet: {
+        id: wallet._id,
+        address: wallet.address,
+        publicKey: wallet.publicKey,
+        network: wallet.network,
+        balance: wallet.balance
+      },
+      encryptedSeed
+    };
+
+  } catch (error) {
+    logger.logError(error, 'WalletService.restoreWallet');
+    
+    if (error instanceof AppError) {
+      throw error;
+    }
+    
+    throw new AppError(ERROR_MESSAGES.WALLET.CREATION_FAILED, 500);
   }
+}
 
   /**
    * Lấy private key từ seed phrase đã mã hóa

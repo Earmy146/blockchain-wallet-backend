@@ -10,3 +10,475 @@ Error: Route /favicon.ico không tồn tại
     at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
     at trim_prefix (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:328:13)
     at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:286:9
+2025-10-20 09:53:09 [ERROR]: [POST /api/users/login] Email hoặc mật khẩu không đúng
+Error: Email hoặc mật khẩu không đúng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:69:11
+2025-10-20 09:53:15 [ERROR]: [POST /api/users/login] Email hoặc mật khẩu không đúng
+Error: Email hoặc mật khẩu không đúng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:69:11
+2025-10-20 09:53:23 [ERROR]: [POST /api/users/login] Email hoặc mật khẩu không đúng
+Error: Email hoặc mật khẩu không đúng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:69:11
+2025-10-20 10:18:51 [ERROR]: [auth.middleware.protect] invalid token
+JsonWebTokenError: invalid token
+    at module.exports [as verify] (/home/quan/blockchain-wallet/backend/node_modules/jsonwebtoken/verify.js:82:17)
+    at protect (/home/quan/blockchain-wallet/backend/src/middlewares/auth.middleware.js:31:25)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:175:3)
+2025-10-20 10:20:18 [ERROR]: [auth.middleware.protect] invalid token
+JsonWebTokenError: invalid token
+    at module.exports [as verify] (/home/quan/blockchain-wallet/backend/node_modules/jsonwebtoken/verify.js:82:17)
+    at protect (/home/quan/blockchain-wallet/backend/src/middlewares/auth.middleware.js:31:25)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:175:3)
+2025-10-20 10:22:06 [ERROR]: [auth.middleware.protect] invalid token
+JsonWebTokenError: invalid token
+    at module.exports [as verify] (/home/quan/blockchain-wallet/backend/node_modules/jsonwebtoken/verify.js:82:17)
+    at protect (/home/quan/blockchain-wallet/backend/src/middlewares/auth.middleware.js:31:25)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:175:3)
+2025-10-20 10:31:05 [ERROR]: [auth.middleware.protect] invalid token
+JsonWebTokenError: invalid token
+    at module.exports [as verify] (/home/quan/blockchain-wallet/backend/node_modules/jsonwebtoken/verify.js:82:17)
+    at protect (/home/quan/blockchain-wallet/backend/src/middlewares/auth.middleware.js:31:25)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:175:3)
+2025-10-20 11:39:23 [ERROR]: [auth.middleware.protect] invalid token
+JsonWebTokenError: invalid token
+    at module.exports [as verify] (/home/quan/blockchain-wallet/backend/node_modules/jsonwebtoken/verify.js:82:17)
+    at protect (/home/quan/blockchain-wallet/backend/src/middlewares/auth.middleware.js:31:25)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:175:3)
+2025-10-20 11:45:46 [ERROR]: [auth.middleware.protect] invalid token
+JsonWebTokenError: invalid token
+    at module.exports [as verify] (/home/quan/blockchain-wallet/backend/node_modules/jsonwebtoken/verify.js:82:17)
+    at protect (/home/quan/blockchain-wallet/backend/src/middlewares/auth.middleware.js:31:25)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/quan/blockchain-wallet/backend/node_modules/express/lib/router/index.js:175:3)
+2025-10-20 11:57:47 [ERROR]: [WalletService.restoreWallet] Ví này đã được sử dụng bởi người dùng khác
+Error: Ví này đã được sử dụng bởi người dùng khác
+    at WalletService.restoreWallet (/home/quan/blockchain-wallet/backend/src/services/wallet.service.js:118:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/wallet.controller.js:50:18
+2025-10-20 11:57:47 [ERROR]: [POST /api/wallet/restore] Ví này đã được sử dụng bởi người dùng khác
+Error: Ví này đã được sử dụng bởi người dùng khác
+    at WalletService.restoreWallet (/home/quan/blockchain-wallet/backend/src/services/wallet.service.js:118:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/wallet.controller.js:50:18
+2025-10-20 11:57:57 [ERROR]: [WalletService.restoreWallet] Ví này đã được sử dụng bởi người dùng khác
+Error: Ví này đã được sử dụng bởi người dùng khác
+    at WalletService.restoreWallet (/home/quan/blockchain-wallet/backend/src/services/wallet.service.js:118:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/wallet.controller.js:50:18
+2025-10-20 11:57:57 [ERROR]: [POST /api/wallet/restore] Ví này đã được sử dụng bởi người dùng khác
+Error: Ví này đã được sử dụng bởi người dùng khác
+    at WalletService.restoreWallet (/home/quan/blockchain-wallet/backend/src/services/wallet.service.js:118:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/wallet.controller.js:50:18
+2025-10-20 12:17:41 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:41 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:41 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:41 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:56 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:56 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:56 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:17:56 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:02 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:02 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:02 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:02 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:22 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:22 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:22 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:18:22 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:23 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:23 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:23 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:23 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:34 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:34 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:34 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 12:19:34 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:18 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:18 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:19 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:19 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:44 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:44 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:44 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:38:44 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:39:25 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:39:25 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:39:25 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:39:25 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:40:31 [ERROR]: [POST /api/users/register] Email này đã được sử dụng
+Error: Email này đã được sử dụng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:24:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-20 16:43:26 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:43:26 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:43:26 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-20 16:43:26 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:43:55 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:43:55 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:43:55 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:43:55 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:44:04 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:44:04 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:44:04 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:44:04 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:45:01 [ERROR]: [POST /api/users/login] Email hoặc mật khẩu không đúng
+Error: Email hoặc mật khẩu không đúng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:62:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27 12:45:07 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:45:07 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:45:07 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:45:07 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:45:18 [ERROR]: [POST /api/users/login] Email hoặc mật khẩu không đúng
+Error: Email hoặc mật khẩu không đúng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:69:11
+2025-10-27 12:45:22 [ERROR]: [POST /api/users/login] Email hoặc mật khẩu không đúng
+Error: Email hoặc mật khẩu không đúng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:62:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27 12:45:24 [ERROR]: [POST /api/users/login] Email hoặc mật khẩu không đúng
+Error: Email hoặc mật khẩu không đúng
+    at /home/quan/blockchain-wallet/backend/src/controllers/user.controller.js:62:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27 12:50:34 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:50:34 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:50:34 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:50:34 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:16 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:16 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:16 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:16 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:32 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:32 [ERROR]: [TransactionService.getTransactionStats] Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at transactionSchema.statics.getTotalSent (/home/quan/blockchain-wallet/backend/src/models/transaction.model.js:169:34)
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:388:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:32 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17
+2025-10-27 12:53:32 [ERROR]: [GET /api/transactions/stats] Lỗi hệ thống. Vui lòng thử lại sau
+Error: Lỗi hệ thống. Vui lòng thử lại sau
+    at TransactionService.getTransactionStats (/home/quan/blockchain-wallet/backend/src/services/transaction.service.js:408:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/quan/blockchain-wallet/backend/src/controllers/transaction.controller.js:139:17

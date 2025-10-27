@@ -43,14 +43,20 @@ const createWallet = asyncHandler(async (req, res) => {
 const restoreWallet = asyncHandler(async (req, res) => {
   const { seedPhrase, password, network = 'sepolia' } = req.body;
   const userId = req.user._id;
-
+  
+  // ✅ THÊM LOG NÀY
+  console.log('=== RESTORE WALLET DEBUG ===');
+  console.log('User ID from token:', userId);
+  console.log('User ID type:', typeof userId);
+  console.log('User email:', req.user.email);
+  
   logger.info(`Restoring wallet for user: ${req.user.email}`);
-
+  
   // Gọi wallet service
   const result = await walletService.restoreWallet(userId, seedPhrase, password, network);
-
+  
   logger.info(`Wallet restored successfully for user: ${req.user.email}`);
-
+  
   sendSuccess(res, {
     wallet: result.wallet,
     encryptedSeed: result.encryptedSeed
